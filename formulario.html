@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario do samuca</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <a href="/index.html">voltar para principal</a>
+    <br>
+    <hr>
+    
+    <form >
+        <h2>informações basicas</h2>
+        <label for="Nome">Nome:</label>
+        <input id="Nome" type="text" placeholder="fala teu name =)" required>
+        <br><br>
+        
+        <label for="email">email:</label>
+        <input type="campo_email" placeholder="digite um email" required>
+        <br><br>
+        
+        <label for="senha">senha:</label>
+        <input id="senha" type="campo_senha" placeholder="digite uma senha" required>
+        <br><br>
+
+        <h2>escolhas</h2>
+        <input type="radio" name="animais" id="elefante">
+        <label for="elefante">ulufunto</label>
+        <br><br>
+
+        <input type="radio" name="animais" id="dog">
+        <label for="animais">dogão</label>
+        <br><br>
+
+        <h2>escolhas-2</h2>
+        <input type="checkbox" name="eletronicos" id="pc">
+        <label for="pc">pc</label>
+
+        <input type="checkbox" name="eletronicos" id="tv">
+        <label for="tv">tv</label>
+        <br><br>
+
+        <h2>selecione</h2>
+        <select aria-selected="escolha-algo">
+            <option value="azul">azul</option>
+            <option value="preto">preto</option>
+        </select>
+        <br><br>
+
+        <textarea placeholder="escreva-algo"></textarea>
+
+
+        <input type="submit" value="enviar">
+    </form>
+
+</body>
+</html>
